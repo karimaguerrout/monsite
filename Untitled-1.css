@@ -1,0 +1,251 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .box-black {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    } 
+}
+.bg-dark {
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+}
+.box{
+    width: 50wv;
+    height: 30vh;
+    background-color:ghostwhite; 
+    margin-left: 20px; 
+}
+.box > img {
+    width: 100%; 
+}
+.articles {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15%;
+    justify-content: space-evenly;
+
+}
+.card {
+    width: 40%;
+    height: 30%;
+    margin: 5%;
+
+}
+.card >img {
+    width: 100%;
+}
+.card > h1{
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -10%;
+    font-family: nunito;
+
+} 
+.flex {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.flex > a {
+    background-color: rgba(77, 52, 52, 0.74);
+    color:#000;
+    text-decoration-line: none;
+    padding: 3%;
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+.flex > s, .flex > p {
+    margin-left: 9%;
+    font-size: 16px;
+    margin-top: 2%;
+    font-weight: bold;
+    
+}
+.flex > p {
+    color: orange;
+}
+.flex > s {
+    color: rgb(21, 115, 197); 
+    
+}
+
+.price {
+    width: 40px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    color: orange;
+    padding: 3px; 
+    font-size: 20px;
+    margin: 5%;
+    margin-left: 22%;
+    margin-top: 2%;
+    border-radius: 8px;
+} 
+.boite-white {
+    width: 25%;
+    height: 10vh;
+    background-color: white;
+
+} 
+
+.boite-white> img {
+    width: 60%;
+    height: 50%;
+    margin-left: 69%;
+    margin-top: 10%;
+} 
+h6{
+    width: 99%;
+    height: 80%;
+    font-size: 15px;
+    margin-left: 80%;
+    margin-top: 12%;
+}
+.bel{
+    width: 30%;
+    height: 50%;
+    margin-left: 75%;
+
+}
+
+.bel > div{ 
+    font-size: 15px;
+    color: black;
+    margin-top: -10;
+    display: flex;
+    padding: 5%;
+    font-size: 50px;
+
+} 
+.boite grise{
+    width: 50%;
+    height: 20vh;
+    color: gray;
+}
+.box-grey{
+    width: 100vw;
+    height: 70%;
+    padding: 150px 0;
+    background-color: #333;
+} 
+.infos{
+    width: 500px;
+    height: 20px;
+    padding: 15px 0;
+    font-family: Nunito;
+    margin-left: 31%;
+    margin-top: -13%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ul >li {
+    list-style: none;
+    padding: 1%;
+}
+ul {
+    display: flex;
+    width: 150vw;
+    margin-left: 1%;
+    margin-top: -2%;
+    padding: 1%;
+    justify-content: space-between;
+} 
+li:hover{
+    font-weight: bold;
+}
+
+.rond-gris{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 7px;
+    background-color: lightgray;
+}
+.icon{
+    width: 93%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.livre{
+    width: 15%;
+    height: 100%;
+    font-size: 10px;
+    font-family: Nunito;
+    margin-left: 5%;
+    text-align: center;
+    color: #fff; 
+}
+.camion {
+    width: 15%;
+    height: 100%;
+    font-size: 10px;
+    font-family: Nunito;
+    margin-left: 5%;
+    text-align: center;
+    color: #fff; 
+}
+.cadenat{
+    width: 15%;
+    height: 100%;
+    font-size: 10px;
+    font-family: Nunito;
+    margin-left: 5%;
+    text-align: center;
+    color: #fff; 
+
+}
+.pouce{ 
+    width: 15%;
+    height: 100%;
+    font-size: 10px;
+    font-family: Nunito;
+    margin-left: 5%;
+    text-align: center;
+    color: #fff;
+}
+.ligne-grise{
+    width: 70%;
+    height: 3px;
+    margin-left: 14%;
+    margin-top: 2%;
+    background-color: gray;
+    justify-content: center;
+}
+.sport{
+    width: 20%;
+    height: 100%;
+    margin-left: 39%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.copie{
+    width: 30%;
+    height: 100%;
+    font-size: 14px;
+    font-family: Nunito;
+    margin-left: 34%;
+    margin-top: 3%;
+    text-align: center;
+    color: #fff;
+}
+  
